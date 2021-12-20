@@ -1,0 +1,35 @@
+*****************Introduction*************************
+-->> Trees are hierarchical data structures
+-->> Tree with at most two children is called binary tree(left child and right child)
+-->> Binary tree node contain three parts(1. data, 2. pointer of left child, 3. pointer of right child)
+
+***************Advantages and applications*************************
+-->> Store information that naturally forms a hierarchy
+-->> Moderate access/search(for BST)(quicker than Linked List and slower than arrays)
+-->> As a workflow for compositing digital images for visual effects. 
+-->> Router algorithms 
+-->> Form of a multi-stage decision-making 
+-->> don’t have an upper limit on number of nodes
+
+****************Properties********************
+1. Maximum number of nodes at level l is 2^l
+2. Maximum number of nodes in a binary tree at height h is 2^(h+1)-1
+3. Maximum possible height of N node is Log(N+1)-1
+4. In a k-ary tree where every node has either 0 or k children, L = (k - 1)*I + 1 where L : number of leaf nodes, 
+   I : number of internal nodes
+5. 
+
+Full Binary Tree -->> if every node has 0 or 2 children except leaf node
+Complete Binary Tree -->>  if all the levels are completely filled except possibly the last level and the last 
+						   level has all keys as left as possible
+Perfect Binary Tree -->> if all the internal nodes have two children and all leaf nodes are at the same level
+Balanced Binary Tree -->> if the height of the tree is O(Log n) where n is the number of nodes
+
+A degenerate (or pathological) tree -->> if every internal node has one child
+
+Handshaking Lemma : sum of degrees of each vertex is equal two times of number of edges
+
+How many labeled Binary Trees can be there with n nodes? 
+Number of Labelled Trees = (Number of unlabelled trees) * n!
+						 = [fact(2n)/(fact(n+1)*fact(n))]*fact(n)
+						 = fact(2n)/fact(n+1)
