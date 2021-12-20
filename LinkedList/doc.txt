@@ -1,0 +1,17 @@
+******************Introduction****************
+-->> Linear data structure
+-->> Elemets are linked using pointer, not contiguous like array
+
+***************Advantage**********************
+-->> Dynamic size
+-->> Easy to insert/delete
+
+******************Drawback********************
+-->> Random access not allowded
+-->> Extra memory space for pointer
+-->> Not cache fraindly
+
+*****************Information******************
+-->> First node is called head.Each node has two part one is data part and the other is pointer of the next node.
+-->> For the last node, pointer of the next node is NULL
+
