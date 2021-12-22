@@ -8,3 +8,4 @@ else:
   print("Given string is not palindrome")
 
 sub_string(s)
+print(all_substring(s))
