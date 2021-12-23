@@ -1,0 +1,49 @@
+-------------------
+| Risk Management |
+------------------- 
+Worst Case :
+For Intraday 0.5% loss against 0.5%,1%,2% profit
+E.g for stock 600, loss = 3, profit = 3 to 6
+
+Let say 50% day loss , 50% day win (20 % second target,20% first target,10% third target)
+Lets total capital 1 lakh
+loss : 500x5=2500
+gain : 2000x1+1000x2+500x2=5000
+Broker : 80x10=800
+profit : 1700
+On 20 trade : 3400
+17% money can profit in this strategy
+If you have 1 lakh you can profit 17000 in a month
+If you have 2 lakh you can profit 34000 in a month
+If you have 5 lakh you can profit 85000 in a month
+
+
+Average Case :
+For Intraday 1% loss against 0.5%,1%,1.5% profit
+Let say 30% day loss , 70% day win (30 % second target,30% first target,10% third target)
+Lets total capital 1 lakh
+loss : 1000x3=3000
+gain : 1500x1+1000x3+500x3=6000
+Broker : 80x10=800
+profit : 2200
+On 20 trade : 4400
+22% money can profit in this strategy
+If you have 1 lakh you can profit 22000 in a month
+If you have 2 lakh you can profit 44000 in a month
+If you have 5 lakh you can profit 110000 in a month
+
+
+
+Best Case :
+For Intraday 1% loss against 1%,1.5%,2% profit
+Let say 30% day loss , 70% day win (20 % second target,40% first target,10% third target)
+Lets total capital 1 lakh
+loss : 1000x3=3000
+gain : 2000x1+1000x4+1500x2=9000
+Broker : 80x10=800
+profit : 5200
+On 20 trade : 10400
+52% money can profit in this strategy
+If you have 1 lakh you can profit 52000 in a month
+If you have 2 lakh you can profit 104000 in a month
+If you have 5 lakh you can profit 260000 in a month

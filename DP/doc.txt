@@ -1,3 +1,4 @@
 *************************INtroduction********************
-Dynamic Programming
-
+# Dynamic Programming :
+1. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/
+2. Coin Change - https://leetcode.com/problems/coin-change/

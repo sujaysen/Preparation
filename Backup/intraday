@@ -49,5 +49,4 @@ RSI Intraday Trading System
  Go to yahoo finance/google finance/investing.com or any site that shows you previous day's charts and see whether the stock has went up or down for some days. Normally,a script moves up or down for 2–3 days consistently after which it comes down. So, find stocks that have moved up just for 1 day. The scripts that have moved up/down 2–3 days are not of our concern. So just select those who have just just started moving up/down and had shown this trend for just 1 day.
 
 ***Calculate market volatility
-string : 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
 https://www.investopedia.com/terms/b/beta.asp
