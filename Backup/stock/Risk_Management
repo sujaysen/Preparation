@@ -1,7 +1,25 @@
 -------------------
 | Risk Management |
 ------------------- 
-Worst Case :
+Learning Level :
+
+For Intraday 0.5% loss against 0.3%,0.4%,0.5%
+E.g for stock 600, loss = 3, profit = (0.5x600,0.4x600,0.3x600) = (3, 2.4, 1.8)                                                   
+
+Let say 30% day loss , 70% day win (20 % second target,20% first target,30% third target)
+Lets total capital 1 lakh
+loss : 500x3=1500
+gain : 300x3+400x2+500x2=3000
+Broker : 80x10=800
+profit : 700
+On 20 trade : 1400
+7% money can profit in this strategy
+If you have 1 lakh you can profit 7000 in a month
+If you have 2 lakh you can profit 14000 in a month
+If you have 5 lakh you can profit 35000 in a month
+
+
+Good Level :
 For Intraday 0.5% loss against 0.5%,1%,2% profit
 E.g for stock 600, loss = 3, profit = 3 to 6
 
@@ -18,7 +36,7 @@ If you have 2 lakh you can profit 34000 in a month
 If you have 5 lakh you can profit 85000 in a month
 
 
-Average Case :
+Better Level :
 For Intraday 1% loss against 0.5%,1%,1.5% profit
 Let say 30% day loss , 70% day win (30 % second target,30% first target,10% third target)
 Lets total capital 1 lakh
@@ -34,7 +52,7 @@ If you have 5 lakh you can profit 110000 in a month
 
 
 
-Best Case :
+Pro Level :
 For Intraday 1% loss against 1%,1.5%,2% profit
 Let say 30% day loss , 70% day win (20 % second target,40% first target,10% third target)
 Lets total capital 1 lakh
