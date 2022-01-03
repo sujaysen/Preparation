@@ -1,9 +1,9 @@
 import json
 from datetime import datetime
 
-filename = input("Enter filename(mm-yyyy) : ")
+filename = input("Enter the filename(dd-mm) : ")
 if not filename:
-    filename = datetime.today().strftime('%m-%Y')
+    filename = datetime.today().strftime('%d-%m')
 file_p = open(filename,"a+")
 data = {}
 
