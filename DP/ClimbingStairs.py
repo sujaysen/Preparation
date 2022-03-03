@@ -4,6 +4,7 @@ t(0) = 1
 t(1) = 1
 t(2) = t(0) + t(1) = 2
 t(n) = t(n-1) + t(n-2)
+
 """
 def climbing_stairs(n):
   dp = [0]*(n+1)
