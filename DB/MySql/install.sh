@@ -6,6 +6,12 @@ sudo mysql/ mysql -u root -p
 
 # Create an user
 CREATE USER 'username'@'host' IDENTIFIED WITH authentication_plugin BY 'password';
+CREATE USER 'username'@'host' IDENTIFIED BY 'password';
+CREATE USER 'username'@'host' IDENTIFIED WITH mysql_native_password BY 'password';
+
+# Update user
+ALTER USER 'username'@'host' IDENTIFIED WITH mysql_native_password BY 'password';
+
 
 # Grant privileges on db and table
 GRANT PRIVILEGE ON database.table TO 'username'@'host';
