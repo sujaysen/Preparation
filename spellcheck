@@ -1,0 +1,26 @@
+{
+  "suggest": {
+    "text" : "search_term",
+    "mysuggest1"{
+      "term" : {
+        "field" : "field_name",
+	"prefix_length":1,
+	"suggest_mode":"missing/popular/always"
+      }
+    }
+    "mysuggest2"{
+      "term" : {
+        "field" : "field_name"
+      }
+    }
+  }
+}
+
+suggest_mode - missing : Only provide suggestions for suggest text terms that are not in the index. This is the default.
+suggest_mode - popular : Only suggest suggestions that occur in more docs than the original suggest text term
+suggest_mode - always : Suggest any matching suggestions based on terms in the suggest text
+size : The maximum corrections to be returned
+prefix_length : The number of minimal prefix characters that must match in order be a candidate for suggestions
+min_word_length : The minimum length a suggest text term must have in order to be included. Defaults to 4.
+
+
