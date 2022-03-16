@@ -1,0 +1,30 @@
+-->> Django is a web development framework that assists in building and maintaining quality web applications
+
+-->> Django provides a bridge between the data model and the database engine, and supports a large set of database systems.
+
+-->> Django has built-in support for Ajax, RSS, Caching and various other frameworks.
+
+-->> Django supports the MVC pattern.
+
+-->> Django written in Python
+
+manage.py :
+This file is kind of your project local django-admin for interacting with your project via command line (start the development server, sync db...)
+
+To get full command run : python manage.py help
+
+__init__.py :− Just for python, treat this folder as package.
+settings.py :− As the name indicates, your project settings.
+urls.py :− All links of your project and the function to call. A kind of ToC of your project
+wsgi.py :− If you need to deploy your project over WSGI.
+
+Your Application :
+__init__.py − Just to make sure python handles this folder as a package.
+
+admin.py − This file helps you make the app modifiable in the admin interface.
+
+models.py − This is where all the application models are stored.
+
+tests.py − This is where your unit tests are.
+
+views.py − This is where your application views are.
