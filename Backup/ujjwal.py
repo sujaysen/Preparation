@@ -1,18 +1,12 @@
 from datetime import date
 import time
-Policy_holder = input("Enter the name of the policy holder : ")
-Agent_name = input("Enter the name of the agent : ")
-
-def disp(a,b,c):
-    print("paid")
+Policy_holder = input("Enter the name of the policy holder : ") or "sujay"
+Agent_name = input("Enter the name of the agent : ") or "ujjwal"
 
 if(Policy_holder == "sujay"):
     if(Agent_name == "ujjwal"):
         start_date = '29.08.2018'
         end_date = '30.05.2033'
-    elif(Agent_name =="bapi"):
-        start_date = '19.11.2018'
-        end_date = '20.08.2036'
     elif(Agent_name == "jagannath"):
         start_date = '25.03.2019'
         end_date = '26.12.2040'
@@ -41,7 +35,7 @@ Unpaid = 0
 print("*************** LIST OF PAID INSTALLMENT ****************")
 while today_epoch>=start_date_epoch:
     d = time.strftime('%d-%m-%Y', time.localtime(start_date_epoch))
-    disp(Policy_holder,Agent_name,d)
+    print("paid-",d)
     start_date_epoch = start_date_epoch + 7889400
     paid += 1
 
@@ -54,3 +48,4 @@ while end_date_epoch>=start_date_epoch:
 
 print("Total number of istallment done = ",paid)
 print("Total number of istallment due = ",Unpaid)
+print("Total amount paid = ",paid*30452)
