@@ -4,7 +4,7 @@ git config –global user.email "email address"
 
 # Store username and pass details into cachei with default time 15 min
 git config --global credential.helper cache
-git config credential.helper store
+git config --global credential.helper store
 
 # This command is used to start a new repository
 git init repository_name
@@ -36,6 +36,9 @@ git diff first_branch second_branch
 # This command shows the differences between the files in the staging area and the latest version present.
 git diff –staged
 
+# If you want to unstage all staged files
+git reset HEAD
+
 # This command unstages the file, but it preserves the file contents.
 git reset filename
 
@@ -47,6 +50,7 @@ git rm filename
 
 # This command is used to get list of commits
 git log
+git log -p
 
 # This command is used to get list of commits of a particular file
 git log --follow filename
@@ -75,8 +79,12 @@ git checkout -b branch_name
 # This command merges the specified branch’s history into the current branch.
 git merge branch_name
 
+# You can abort a conflicting merge by using the merge parameter and the --abort flag. It allows you to exit from the merge process and return to the state after which the merge began.
+git merge --abort
+
 # This command sends the committed changes of master branch to your remote repository.
 git push origin master
+git push -u origin new_branch
 
 # This command pushes all branches to your remote repository.
 git push -all origin
@@ -98,3 +106,13 @@ git stash list
 
 # This command discards the most recently stashed changeset.
 git stash drop
+
+# You can roll back the last commit by using the revert parameter
+git revert HEAD
+
+# Rollback a particular commit 
+git revert commit_id
+
+# Remove a Remote Branch
+git push --delete origin existing_branch
+
