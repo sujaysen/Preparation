@@ -89,3 +89,8 @@ git stash save
 # This command restores the most recently stashed files.
 git stash pop
 
+# This command lists all stashed changesets.
+git stash list
+
+# This command discards the most recently stashed changeset.
+git stash drop
