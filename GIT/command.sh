@@ -2,6 +2,9 @@
 git config –global user.name "name"  
 git config –global user.email "email address"
 
+# Store username and pass details into cache
+git config --global credential.helper cache
+
 # This command is used to start a new repository
 git init repository_name
 
