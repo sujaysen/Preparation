@@ -31,4 +31,5 @@ git diff first_branch second_branch
 # This command shows the differences between the files in the staging area and the latest version present.
 git diff –staged
 
+# This command unstages the file, but it preserves the file contents.
 
