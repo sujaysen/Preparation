@@ -47,7 +47,7 @@ scp user1@host1.com:/files/file.txt user2@host2.com:/files
 ps -ef |grep "name of application"
 # kill process
 kill -9 process_id
-# check the connectivity between two nodes, that is whether the server is connected
+# detect whether a system is connected to the network or not
 ping ip/domain
 # display the IP address for a given domain name
 host domain_name
