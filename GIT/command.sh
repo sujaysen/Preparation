@@ -4,6 +4,8 @@ git config –global user.email "email address"
 
 # Store username and pass details into cachei with default time 15 min
 git config --global credential.helper cache
+
+# Store username and pass details into cache permanently 
 git config --global credential.helper store
 
 # This command is used to start a new repository
