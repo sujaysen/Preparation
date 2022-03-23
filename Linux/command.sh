@@ -109,7 +109,7 @@ cat filename | jq
 du -sh folder_name
 # See all open ports on your machine
 netstat -anltp | grep "LISTEN"
-
+# write
 
 
 
