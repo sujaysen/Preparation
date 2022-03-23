@@ -118,3 +118,4 @@ git revert commit_id
 # Remove a Remote Branch
 git push --delete origin existing_branch
 
+# How to push code in one command
