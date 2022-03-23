@@ -93,4 +93,23 @@ reboot
 sort
 uniq
 wc
+grep
+ps -ef | grep systemd | grep -v grep
+# login to remote server
+ssh username@host
+# transfers a URL
+curl -X POST https://example.com/
+# to pass parameter
+curl -d "user=user1&pass=abcd" -X POST https://example.com/login
+# to specify header
+curl -d '{json}' -H 'Content-Type: application/json' https://example.com/login
+# get json file in pretty format
+cat filename | jq
+# get size of a folder
+du -sh folder_name
+# See all open ports on your machine
+netstat -anltp | grep "LISTEN"
+
+
+
 

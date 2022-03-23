@@ -35,10 +35,17 @@ set number
 
 # Horizontally split
 :sp file_name
-
+# delete word from cursor position
+dw
 # Cut the current line
 dd
-# Paste the selected text
+# undo
+u
+# redo
+Ctrl + r
+# Paste the selected text before cursor
+P
+# Paste the selected text after cursor
 p
 # Copy the current line
 yy
@@ -62,3 +69,22 @@ gg
 :r file_name
 # Inserts the content of myfile under line 23
 :23r file_name
+# search forword direction
+/<expression>
+# search backword direction
+?<expression>
+# fold code
+zc
+# open from fold
+zo
+# close all folds
+zM
+# unfold all
+zR
+# match braces
+%
+# Accessing remote files
+vim scp://user@server.com/filepath
+# unindent to indent code 
+=%
+
