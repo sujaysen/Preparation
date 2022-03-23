@@ -57,5 +57,40 @@ date
 cal
 # check ip
 ifconfig
-
+nsloopup # nslookup google.com
+# get free space 
+free -h
+# command line calculator
+bc
+df
+factor #  get all factor of a number
+banner name 
+sl
+aafire
+# You can use passwd command to change the password for self or any user
+sudo passwd  -->> for self
+passwd user_name  -->> for other user
+# w is the short and simple command which will help you view the list of currently logged in users
+w
+# get current user
+whoami
+# Get history
+history
+# switch user or want to create new session
+sudo login -->> for self
+login user_name -->> for different user
+# display all the CPU architecture information
+lscpu
+hostname
+# Show current process tree
+pstree
+# get last loging user
+last
+# USB info
+lsusb
+shutdown
+reboot
+sort
+uniq
+wc
 
