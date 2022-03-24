@@ -1,0 +1,8 @@
+-->> Docker is a container management service.
+-->> Easily develop applications, ship them into containers and then deploy anywhere.
+-->> We can run it anywhere means physical machine or virtual machine even on cloud also.
+-->> Docker Hub is a registry service on the cloud.
+-->> Downlod the docker images from docker hub that are build by you or others.
+-->> Can also upload docker images into docker hub.
+-->> Docker image is a combination of a file system and parameters.	
+
