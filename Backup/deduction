@@ -25,13 +25,15 @@ You can calculate with the link : https://cleartax.in/paytax/HraCalculator
 8. Donation - (No limit if have proof)
 
 
-1. House Rent - 144000
-2. Standard Deduction - 50000
-3. 80C         - 150000
-4. Health - 15000
-5. Fuel - 120000
-6. Sodexo - 26400
-7. NPS - 50000
+salary = 1273000
+bonus = 141456
+1. House Rent - 144000       salary = 1129000
+2. Standard Deduction - 50000     salary = 1079000
+3. 80C         - 150000           salary = 929000
+4. Health - 15000				  salary = 914000
+5. Fuel - 120000				  salary = 794000
+6. Sodexo - 26400				  saalry = 767600
+7. NPS - 50000					  salary = 717600
 8. Donation to political party - 30000
 9. Medical checkup - 5000
 10. LTA - 1 lakh (maximum)
@@ -40,3 +42,9 @@ You can calculate with the link : https://cleartax.in/paytax/HraCalculator
 9. Medical checkup(parents) - 5000
 
 Total = 555400
+
+tax = 43400+12500=55900
+pf = 91680
+net salary = 1273000-55900-91680=1125420
+salary + bonus = 1238584
+month = 103000
