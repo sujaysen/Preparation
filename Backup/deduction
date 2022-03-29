@@ -1,32 +1,27 @@
-1. House Rent - 132840
+salary = 1273000
+bonus = 141456
+
+1. House Rent - 152776
 2. Standard Deduction - 50000
 3. 80C         - 150000
 4. Health - 15000
-5. Fuel - 90000
+5. Fuel - 120000
 6. Sodexo - 26400
 7. NPS - 50000
+8. Mobile - 7188
+9. Internet - 11998
 
-Total = 514240
+deduction = 583362
+salary after deduction = 689638
+tax = 50427
+net salary = 1222573
+bonus after tax = 113165
+total salary with bonus = 1335738
+net take home per month = 111311
 
-8. Donation to political party - 30000
-9. Medical checkup - 5000
-10. Transport allowance - 19200
+****************************************
+salary per month = 88083
 
-Total = 549000
-
-1. House Rent - 96000 (if PAN card not available )
-You can calculate with the link : https://cleartax.in/paytax/HraCalculator
-2. Standard Deduction - 50000 (Maximum)
-3. 80C         - 150000 (Maximum)
-4. Health - 25000 (Maximum Health Insurence)
-5. NPS - 50000 (Mximum)
-6. Medical checkup - 5000(No proof required)
-7. Transport allowance - 19200(No proof required)
-8. Donation - (No limit if have proof)
-
-
-salary = 1273000
-bonus = 141456
 1. House Rent - 144000       salary = 1129000
 2. Standard Deduction - 50000     salary = 1079000
 3. 80C         - 150000           salary = 929000
