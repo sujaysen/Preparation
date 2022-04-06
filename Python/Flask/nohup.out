@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "app.py", line 22, in <module>
+    http_server.serve_forever()
+  File "/usr/lib/python3/dist-packages/gevent/baseserver.py", line 367, in serve_forever
+    self.start()
+  File "/usr/lib/python3/dist-packages/gevent/baseserver.py", line 305, in start
+    self.init_socket()
+  File "/usr/lib/python3/dist-packages/gevent/pywsgi.py", line 1490, in init_socket
+    StreamServer.init_socket(self)
+  File "/usr/lib/python3/dist-packages/gevent/server.py", line 146, in init_socket
+    self.socket = self.get_listener(self.address, self.backlog, self.family)
+  File "/usr/lib/python3/dist-packages/gevent/server.py", line 157, in get_listener
+    return _tcp_listener(address, backlog=backlog, reuse_addr=cls.reuse_addr, family=family)
+  File "/usr/lib/python3/dist-packages/gevent/server.py", line 256, in _tcp_listener
+    sock.bind(address)
+OSError: [Errno 98] Address already in use: ('127.0.0.1', 5050)

@@ -18,6 +18,7 @@ api.add_resource(Hello, '/api')
 
 # driver function
 if __name__ == '__main__':
-	http_server = WSGIServer(('127.0.0.1', 5050), app)
-	http_server.serve_forever()
+	app.run(debug = True,host='',port='5050')
+	#http_server = WSGIServer(('127.0.0.1', 5050), app)
+	#http_server.serve_forever()
 
