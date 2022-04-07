@@ -110,6 +110,8 @@ du -sh folder_name
 # See all open ports on your machine
 netstat -anltp | grep "LISTEN"
 # write
+# Run a process with tag
+nohup python3 app.py -m http.server 5050 &
 
 
 
