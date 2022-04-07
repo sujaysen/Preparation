@@ -112,6 +112,8 @@ netstat -anltp | grep "LISTEN"
 # write
 # Run a process with tag
 nohup python3 app.py -m http.server 5050 &
-
+# Run a process with another process name
+nohup python3 app.py -a myProcess
+ps -ef | grep "myProcess | awk `{print $2}`
 
 
