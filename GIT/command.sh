@@ -2,7 +2,7 @@
 git config –global user.name "name"  
 git config –global user.email "email address"
 
-# Store username and pass details into cachei with default time 15 min
+# Store username and pass details into cache with default time 15 min
 git config --global credential.helper cache
 
 # Store username and pass details into cache permanently 
