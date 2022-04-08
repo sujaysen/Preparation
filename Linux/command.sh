@@ -115,5 +115,5 @@ nohup python3 app.py -m http.server 5050 &
 # Run a process with another process name
 nohup python3 app.py -a myProcess
 ps -ef | grep "myProcess | awk `{print $2}`
-
-
+# copy few lines from files
+for i in `ls`;do sed -n 15,20p $i/insertData.py;done;

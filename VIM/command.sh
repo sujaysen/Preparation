@@ -87,4 +87,5 @@ zR
 vim scp://user@server.com/filepath
 # unindent to indent code 
 =%
-
+# differences between files
+vimdiff <file> <file>
