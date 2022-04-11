@@ -1,0 +1,37 @@
+1. Need data ( SQL (like Mysql) or NoSql (like Mongo) or any other format )
+2. Create Index with given data (With proper mapping and analyzer)
+3. Insert data into Indexer properly
+4. Write proper query as requirments
+5. Create API and publish
+
+Project/
+	app.py 
+	Index/
+		createIndex.py  
+		inserData.py  
+	rest/
+		api_1.py 
+	handler/
+		query_1.py 
+	config/  
+		db.py 
+		conn.py  
+		validation.py 
+	test/
+		testCases.py  
+	requirment.txt  
+	run.sh 
+	
+
+app.py -->> Main file of the project 
+createIndex.py -->> Create elastic index with mapping
+inserData.py -->> Insert data into created indexer
+api_1.py -->> write the API
+query_1.py -->> Write query and fetch data from indexer
+db.py -->> all required database connections
+conn.py  -->> all others types of connections
+validation.py -->> validate the request parameters
+testCases.py -->> Write test cases to test the API's
+requirment.txt -->> Write all required modules
+run.sh -->> To run the project
+
