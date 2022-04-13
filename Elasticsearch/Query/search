@@ -1,0 +1,6 @@
+-->> Exact Match 
+-->> Startwith Match (Results only contains the search term as prefix)
+-->> Spellcheck 
+-->> Anywhere Match (Search term contain as a keyword)
+-->> Anywhere Match 75%
+-->> Anywhere Match 50%
