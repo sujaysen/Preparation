@@ -1,7 +1,8 @@
 import sys
 sys.path.append('../')
 from config.conn import es,index
-
+print(index)
+quit()
 body = {
     "settings":
     {
