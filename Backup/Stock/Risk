@@ -1,0 +1,108 @@
+1:2 strategy : (for bull or bear market)
+------------------------
+buy at = 500
+target = 510
+stoploss = 495
+gain = 10 (2%) 
+loss = 5 (1%)
+
+sell at = 500
+target = 490
+stoploss = 505
+gain = 10 (2%)
+loss = 5 (1%)
+
+Tigger on buying side : profit = target on buying side - stoploss on selling side 
+							= 10 - 5
+							= 5
+
+Tigger on selling side : profit = target on selling side - stoploss on buying side
+								= 10 - 5
+								= 5
+That is 1% profit  
+For invest 1 lakh profit 5K
+For invest 20000 profit 1000
+success rate = 80%
+
+
+--------------------------------------510
+
+--------------------------------------505
+
+--------------------------------------500
+
+--------------------------------------495
+
+--------------------------------------490
+
+1:1.5 strategy : (for sideways market)
+------------------------
+buy at = 500
+target = 507.5
+stoploss = 495
+gain = 7.5 (1.5%) 
+loss = 5 (1%)
+
+sell at = 500
+target = 92.5
+stoploss = 505
+gain = 7.5 (1.5%)
+loss = 5 (1%)
+
+Tigger on buying side : profit = target on buying side - stoploss on selling side 
+							= 7.5 - 5
+							= 2.5
+
+Tigger on selling side : profit = target on selling side - stoploss on buying side
+								= 7.5 - 5
+								= 2.5
+That is 0.5% profit  
+For invest 1 lakh profit 2.5K
+
+
+--------------------------------------507.5
+
+--------------------------------------505
+
+--------------------------------------500
+
+--------------------------------------495
+
+--------------------------------------492.5
+
+Test strategy : (for sideways market)
+------------------------
+buy at = 500
+target = 506
+stoploss = 495
+gain = 6 
+loss = 5
+
+sell at = 500
+target = 494
+stoploss = 505
+gain = 6
+loss = 5 
+
+Tigger on buying side : profit = target on buying side - stoploss on selling side 
+							= 6 - 5
+							= 1
+
+Tigger on selling side : profit = target on selling side - stoploss on buying side
+								= 6 - 5
+								= 1
+That is 0.2% profit  
+For invest 1 lakh profit 1K
+
+
+--------------------------------------506
+
+--------------------------------------505
+
+--------------------------------------500
+
+--------------------------------------495
+
+--------------------------------------494
+
+
