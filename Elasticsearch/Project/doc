@@ -4,24 +4,36 @@
 4. Write proper query as requirments
 5. Create API and publish
 
-Project/
-	app.py 
-	Index/
-		createIndex.py  
-		inserData.py  
-	rest/
-		api_1.py 
-	handler/
-		query_1.py 
-	config/  
-		db.py 
-		conn.py  
-		validation.py 
-	test/
-		testCases.py  
-	requirment.txt  
-	run.sh 
-	
+Project
+|
+|----app.py
+|----requirment.txt
+|----run.sh
+|
+|----Index
+|	 |
+|	 |----createIndex.py
+|	 |----inserData.py
+|
+|----rest
+|    |
+|    |----api.py
+|
+|----handler
+|    |
+|    |----query.py
+|
+|----config
+|	 |
+|	 |----db.py
+| 	 |----conn.py
+|	 |----validation.py
+|	 
+|----test
+|	 |
+|	 |----testcase.py
+
+
 
 app.py -->> Main file of the project 
 createIndex.py -->> Create elastic index with mapping
