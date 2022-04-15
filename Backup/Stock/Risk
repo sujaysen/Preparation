@@ -70,39 +70,16 @@ For invest 1 lakh profit 2.5K
 
 --------------------------------------492.5
 
-Test strategy : (for sideways market)
-------------------------
-buy at = 500
-target = 506
-stoploss = 495
-gain = 6 
-loss = 5
+Justdial :
+01.04.2022 - Buy side target done
+04.04.2022 - Buy side target done 
+05.04.2022 - Buy side target done 
+06.04.2022 - Buy side target done 
+07.04.2022 - Sell side target done 
+08.04.2022 - Loss
+11.04.2022 - Buy side target done
+12.04.2022 - Buy side target done
+13.04.2022 - Buy side target done
 
-sell at = 500
-target = 494
-stoploss = 505
-gain = 6
-loss = 5 
-
-Tigger on buying side : profit = target on buying side - stoploss on selling side 
-							= 6 - 5
-							= 1
-
-Tigger on selling side : profit = target on selling side - stoploss on buying side
-								= 6 - 5
-								= 1
-That is 0.2% profit  
-For invest 1 lakh profit 1K
-
-
---------------------------------------506
-
---------------------------------------505
-
---------------------------------------500
-
---------------------------------------495
-
---------------------------------------494
 
 
