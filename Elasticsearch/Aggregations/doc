@@ -1,0 +1,8 @@
+Aggregations help you answer questions like:
+	--->>> Who are the max searchable user
+	--->>> maximum searchable term
+	--->>> Who are my most valuable customers based on transaction volume?
+	--->>> How many products are in each product category?
+	--->>> What’s the average load time for my website?
+
+

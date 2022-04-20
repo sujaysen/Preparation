@@ -1,0 +1,48 @@
+Capital = 20000
+Justdial:(Last One year data)
+	Total Trading day = 249)
+	1% margin buy :
+		loss = 153 day
+		loss = 153000
+		profit = 40% day
+			1% profit = 67 day >> 14 >> 14000
+			2% profit = 53 day >> 15 >> 30000
+			3% profit = 38 day >> 9  >> 27000
+			4% profit = 29 day >> 7  >> 28000
+			5% profit = 22 day >> 6  >> 30000
+			6% profit = 16 day >> 5  >> 30000
+			7% profit = 11 day >> 1  >> 7000
+			8% profit = 10 day >> 2  >> 16000
+			9% profit = 8 day >> 3   >> 27000
+			10% profit = 5 day >> 5  >> 50000
+		net profit = 1 lakh in one year with capital 20k
+		net profit = 5 lakh in one year with capital 1 lakh
+	
+Stock Selection:
+Risk Management:
+	For Intraday 1% loss against 1%,1.5%,2% profit
+	Let say 4 day loss , 6 day win (2 day first target,2 day second target,2 day third target)
+	Lets total capital 1 lakh
+	loss : 1000x4=4000
+	gain : 1000x2+1500x2+2000x2=9000
+	Broker : 100x10=1000
+	profit : 4000
+	monthly profit : 8000
+	Capital = 20000
+	profit margin on month = 40%
+	profit margin on year = 480%
+
+
+	For Intraday 1% loss against 1%,1.5%,2%,3%,4% profit
+	Let say 10 day loss , 10 day win (2 day first target,2 day second target,1 day third target)
+	Lets total capital 1 lakh
+	loss : 1000x5=5000
+	gain : 1000x2+1500x2+2000x1=7000
+	Broker : 100x10=1000
+	profit : 1000
+	monthly profit : 2000
+	Capital = 20000
+	profit margin on month = 10%
+	profit margin on year = 120%
+
+

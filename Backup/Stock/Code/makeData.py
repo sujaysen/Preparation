@@ -28,6 +28,7 @@ for stock_name in stock_array:
 			volume = float(row[11].replace(",",""))
 
 			# condition for Gap up and Gap down
+			gap_up_with = round(today_open - prev_close,1)
 			if today_open > prev_close:
 				open_status = "Gap Up"
 			else:
@@ -51,9 +52,8 @@ for stock_name in stock_array:
 
 
 				idd = date + ":"+str(margin)+":buy"
-				doc = {"_id":idd,"date":date,"action":"buy","buy":buy,"stoploss":stoploss,"margin":margin,"profit_margin":profit_margin,"income_status":status,"high":high,"low":low,"prev_close":prev_close,"today_close":today_close,"volume":volume,"opening_status":open_status}
+				doc = {"_id":idd,"date":date,"action":"buy","gap_up_with":gap_up_with,"buy":buy,"stoploss":stoploss,"margin":margin,"profit_margin":profit_margin,"income_status":status,"high":high,"low":low,"prev_close":prev_close,"today_close":today_close,"volume":volume,"opening_status":open_status}
 				mycol.update_one({"_id": idd},{"$set": doc},upsert=True)
-				#mycol.insert_one(doc)
 				margin = margin + 0.5
 
 			# For selling side
@@ -67,10 +67,14 @@ for stock_name in stock_array:
 				if stoploss > high:
 					status = "Profit"
 
+				if status == "Profit":
+					profit_margin = round(((buy-low)/buy)*100,2)
+				else:
+					profit_margin = round(((low-buy)/buy)*100,2)
+
 				idd = date + ":"+str(margin)+":sell"
-				doc = {"_id":idd,"date":date,"action":"sell","sell":sell,"stoploss":stoploss,"margin":margin,"income_status":status,"high":high,"low":low,"prev_close":prev_close,"today_close":today_close,"volume":volume,"opening_status":open_status}
+				doc = {"_id":idd,"date":date,"action":"sell","profit_margin":profit_margin,"sell":sell,"gap_up_with":gap_up_with,"stoploss":stoploss,"margin":margin,"income_status":status,"high":high,"low":low,"prev_close":prev_close,"today_close":today_close,"volume":volume,"opening_status":open_status}
 				mycol.update_one({"_id": idd},{"$set": doc},upsert=True)
-				#mycol.insert_one(doc)
 				margin = margin + 0.5
 
 		except Exception as e:

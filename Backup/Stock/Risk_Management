@@ -1,6 +1,18 @@
 -------------------
 | Risk Management |
 ------------------- 
+Better Level :
+For Intraday 1% loss against 1%,1.5%,2% profit
+Let say 4 day loss , 6 day win (2 day first target,2 day second target,2 day third target)
+Lets total capital 1 lakh
+loss : 1000x4=4000
+gain : 1000x2+1500x2+2000x2=9000
+Broker : 100x10=1000
+profit : 4000
+On 20 trade : 8000
+
+Capital = 20000
+
 Learning Level :
 
 For Intraday 0.5% loss against 0.3%,0.4%,0.5%
