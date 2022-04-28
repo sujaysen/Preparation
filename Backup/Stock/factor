@@ -1,0 +1,19 @@
+1.  Gap Up/Gap Down (opening status)
+2.  Profit/Loss  (income status)
+3.  Open 
+4.  Previous Close
+5.  High
+6.  Low
+7.  Nifty Details 
+	   Bullish/Bearish
+	   Gap Up/Gap Down
+8.  Profit/Loss margin
+9.  Date
+10. Buy/Sell (action)
+11. Stoploss
+12. Good/Bad news (news status)
+13. Event (monthly expirey/earning declare/special news from company/govt dependent news)
+14. target_done_at
+15. id 
+16. volume
+17. previous day volume
