@@ -1,5 +1,5 @@
-1.  Gap Up/Gap Down (opening status)
-2.  Profit/Loss  (income status)
+1.  Gap Up/Gap Down/Flat (opening status)
+2.  Profit/Loss/Oncost  (income status)
 3.  Open 
 4.  Previous Close
 5.  High
@@ -17,3 +17,32 @@
 15. id 
 16. volume
 17. previous day volume
+18. global market(Up/Down/Flat)
+19. market centiment(Good/Bad/Average)
+
+
+
+d = {
+	"opening status":"Gap Up",
+	"income status":"Profit",
+	"open":800,
+	"prev_close":795,
+	"high":808,
+	"low":796,
+	"nifty":{
+			"opening":"Gap Up",
+			"trend":"Bulish"
+	},
+	"profit margin":1,
+	"date":"2022-04-26",
+	"action":"Buy",
+	"stoploss":792,
+	"news status":"Good",
+	"event":"monthly expiary",
+	"target done at":"9:30",
+	"_id":"2022-04-26",
+	"volume":220098,
+	"previous day volume":200076,
+	"global market":"Up",
+	"market centiment":"Good"
+}
