@@ -1,4 +1,7 @@
 selenium
 numpy
 panda
-
+sys
+pytest
+time
+webSocket streaming
