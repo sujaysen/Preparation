@@ -1,14 +1,12 @@
-# Selenium is an open-source automation testing tools.
-# pip install selenium
 from selenium import webdriver
-import time  
-from selenium.webdriver.common.keys import Keys  
+from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
-driver.maximize_window()  
-driver.get("https://expert.chegg.com/expertqna")
-time.sleep(13)  
-driver.find_element_by_name("btnK").send_keys(Keys.ENTER)  
-time.sleep(3)  
-driver.close()  
-
+driver.get("https://www.python.org")
+print(driver.title)
+search_bar = driver.find_element_by_name("q")
+search_bar.clear()
+search_bar.send_keys("getting started with python")
+search_bar.send_keys(Keys.RETURN)
+print(driver.current_url)
+driver.close()
