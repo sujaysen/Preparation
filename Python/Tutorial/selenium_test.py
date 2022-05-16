@@ -6,9 +6,8 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
 driver.maximize_window()  
-driver.get("https://google.co.in")
-driver.find_element_by_name("q").send_keys("selenium test")  
-time.sleep(3)  
+driver.get("https://expert.chegg.com/expertqna")
+time.sleep(13)  
 driver.find_element_by_name("btnK").send_keys(Keys.ENTER)  
 time.sleep(3)  
 driver.close()  
