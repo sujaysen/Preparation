@@ -17,11 +17,6 @@ def get_keyword(my_text):
 			break
 	return keywordList
 
-for text in open("tests.txt","r"):
-	resp = get_keyword(text.replace("\n",""))
-	if len(resp)>0:
-		print("{} ----->>>>>> {}".format(text,resp[0]))
-
 text = input("Enter string : ")
 resp = get_keyword(text)
 print("Search text : ",resp[0])

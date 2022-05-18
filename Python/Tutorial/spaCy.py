@@ -1,7 +1,7 @@
 import spacy
 from collections import Counter
 from string import punctuation
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
 #nlp.Defaults.stop_words.add("my_new_stopword")
 #nlp.Defaults.stop_words.remove("whatever")
 
