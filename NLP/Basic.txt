@@ -1,0 +1,43 @@
+1. File loading
+2. Word counts
+3. Character counts
+4. Average character per word
+5. Stop word count
+6. Count #hashtag and @mention 
+7. Is numeric digit present in twitts
+8. Upper case word count
+9. To lower case
+10. Contractions to expansions
+11. Email removal and count
+12. URL removal and counts
+13. Removal of RT
+14. Removal of special character
+15. Removal of multiple spaces
+16. Removal of HTML tag
+17. Removal of accented character
+18. Removal of stopwords
+19. Conversion into base(lematization)
+20. Common occuring word removal
+21. Rare occuring word removal
+22. Word cloud
+23. Spelling correction
+24. Tokenization using textblob
+25. Lemmatization
+26. Detecting entities using NER
+27. Noun detection
+28. Language detection
+29. Sentence translation
+30. Sentiment classifier
+***********Spacy********
+1. Tokenization
+2. POS tagging
+3. Dependency parcing
+4. Lemmatization
+5. Sentence boundary detection
+6. Named Entity Recognition(NER)
+7. Entity Linking
+8. Similarity
+9. Text classification
+10. Rule based matching
+11. Traning
+12. Serrialization
