@@ -119,3 +119,5 @@ ps -ef | grep "myProcess | awk `{print $2}`
 for i in `ls`;do sed -n 15,20p $i/insertData.py;done;
 # get all running port
 lsof -i -P -n | grep LISTEN
+# excule a particular file in grep
+grep -rin --exclude='*.log' "voicekeyword"
