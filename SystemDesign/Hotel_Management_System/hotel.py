@@ -1,5 +1,6 @@
 from tkinter import *
 from PIL import Image,ImageTk
+from customer import Roombooking
 
 
 
@@ -11,7 +12,7 @@ class HotelManagementSystem:
 		self.root.geometry("1550x900+0+0")
 
 		#============================ 1st image ===================================
-		img1 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/sujay.jpj")
+		img1 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/Images/sujay.jpj")
 		img1 = img1.resize((1550,140),Image.Resampling.LANCZOS)
 		self.photoimg = ImageTk.PhotoImage(img1)
 
@@ -19,7 +20,7 @@ class HotelManagementSystem:
 		lblimg.place(x=230,y=0,width=1320,height=140)
 
 		#================================ logo ====================================
-		img2 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/logo.jpg")
+		img2 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/Images/logo.jpg")
 		img2 = img2.resize((230,140),Image.Resampling.LANCZOS)
 		self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -42,7 +43,7 @@ class HotelManagementSystem:
 		btn_frame = Frame(main_frame,bd=4,relief=RIDGE)
 		btn_frame.place(x=0,y=35,width=228,height=190)
 	
-		cust_btn = Button(btn_frame,text="CUSTOMER",width=22,font=("times new roman",14,"bold"),bg="black",fg="gold",bd=0,cursor="hand1")
+		cust_btn = Button(btn_frame,text="CUSTOMER",command=self.room_book,width=22,font=("times new roman",14,"bold"),bg="black",fg="gold",bd=0,cursor="hand1")
 		cust_btn.grid(row=0,column=0,pady=1)
 
 		room_btn = Button(btn_frame,text="ROOM",width=22,font=("times new roman",14,"bold"),bg="black",fg="gold",bd=0,cursor="hand1")
@@ -59,7 +60,7 @@ class HotelManagementSystem:
 		logout_btn.grid(row=4,column=0,pady=1)
 
 		#================================ right side img ==================================
-		img3 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/dining.jpg")
+		img3 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/Images/dining.jpg")
 		img3 = img3.resize((1310,690),Image.Resampling.LANCZOS)
 		self.photoimg3 = ImageTk.PhotoImage(img3)
 
@@ -67,7 +68,7 @@ class HotelManagementSystem:
 		lblimg3.place(x=225,y=0,width=1310,height=690)
 		
 		#================================ left side img ==================================
-		img4 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/kfc.jpg")
+		img4 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/Images/kfc.jpg")
 		img4 = img4.resize((230,210),Image.Resampling.LANCZOS)
 		self.photoimg4 = ImageTk.PhotoImage(img4)
 
@@ -75,13 +76,16 @@ class HotelManagementSystem:
 		lblimg4.place(x=0,y=225,width=230,height=210)
 
 		#================================ left side img ==================================
-		img5 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/restuarant.jpg")
+		img5 = Image.open(r"/home/justdial/Preparation/SystemDesign/Hotel_Management_System/Images/restuarant.jpg")
 		img5 = img5.resize((230,190),Image.Resampling.LANCZOS)
 		self.photoimg5 = ImageTk.PhotoImage(img5)
 
 		lblimg5 = Label(main_frame,image=self.photoimg5,bd=4,relief=RIDGE)
 		lblimg5.place(x=0,y=420,width=230,height=190)
 
+	def room_book(self):
+		self.new_window = Toplevel(self.root)
+		self.app = Roombooking(self.new_window)
 
 
 

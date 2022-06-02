@@ -9,7 +9,11 @@ class FirstOption:
 		self.root = root
 		self.root.title("Log Details For 192.168.24.132")
 		self.root.geometry("1135x570+232+165")
+		self.date = StringVar()
+		self.index = StringVar()
 
+		def submit():
+			pass
 
 		#================================ right side img ==================================
 		img3 = Image.open(r"/home/justdial/Preparation/SystemDesign/Log_View_System/images/just1.jpg")
@@ -19,8 +23,22 @@ class FirstOption:
 		lblimg3 = Label(self.root,image=self.photoimg3,bd=4,relief=RIDGE)
 		lblimg3.place(x=350,y=100,width=400,height=400)
 
+		#============================get entry================================
+		date_label = Label(self.root, text = 'Date', font=('calibre',15, 'bold')).grid(row=0,column=0)
+		date_entry = Entry(self.root,textvariable = self.date, font=('calibre',15,'normal')).grid(row=0,column=1)
+
+
+		index_label = Label(self.root, text = 'Index', font=('calibre',15, 'bold')).grid(row=1,column=0)
+		index_entry = Entry(self.root,textvariable = self.index, font=('calibre',15,'normal')).grid(row=1,column=1)
+
+		sub_btn=Button(self.root,text = 'Submit', command = submit).grid(row=2,column=1)
 
 		'''
+		date_label.grid(row=0,column=0)
+		date_entry.grid(row=0,column=1)
+		index_label.grid(row=1,column=0)
+		index_entry.grid(row=1,column=1)
+
 		#================================ title ====================================
 		lbl_title = Label(self.root,text = "LOG VIEW SYSTEM",font=("times new roman",40,"bold"),bg="black",fg="gold",bd=4,relief=RIDGE)
 		lbl_title.place(x=0,y=0,width=1550,height=100)
