@@ -1,0 +1,63 @@
+===================== BASICS ============================
+Learn to work with Text Files with Python
+Learn how to work with PDF files in Python
+Utilize Regular Expressions for pattern searching in text
+Use Spacy for ultra fast tokenization
+Learn about Stemming and Lemmatization
+Understand Vocabulary Matching with Spacy
+Use Part of Speech Tagging to automatically process raw text files
+Understand Named Entity Recognition
+Visualize POS and NER with Spacy
+Use SciKit-Learn for Text Classification
+Use Latent Dirichlet Allocation for Topic Modelling
+Learn about Non-negative Matrix Factorization
+Use the Word2Vec algorithm
+Use NLTK for Sentiment Analysis
+Use Deep Learning to build out your own chat bot
+
+=========================== ADVANCED ================================
+Build a text classification system (can be used for spam detection, sentiment analysis, and similar problems)
+Build a neural machine translation system (can also be used for chatbots and question answering)
+Build a sequence-to-sequence (seq2seq) model
+Build an attention model
+Build a memory network (for question answering based on stories)
+
+How to convert text into vectors using CountVectorizer, TF-IDF, word2vec, and GloVe
+How to implement a document retrieval system / search engine / similarity search / vector similarity
+Probability models, language models and Markov models (prerequisite for Transformers, BERT, and GPT-3)
+How to implement a cipher decryption algorithm using genetic algorithms and language modeling
+How to implement spam detection
+How to implement sentiment analysis
+How to implement an article spinner
+How to implement text summarization
+How to implement latent semantic indexing
+How to implement topic modeling with LDA, NMF, and SVD
+Machine learning (Naive Bayes, Logistic Regression, PCA, SVD, Latent Dirichlet Allocation)
+Deep learning (ANNs, CNNs, RNNs, LSTM, GRU) (more important prerequisites for BERT and GPT-3)
+How to use Python, Scikit-Learn, Tensorflow, +More for NLP
+
+
+========================= Neural Network ===================
+1. Introduction to Deep Learning
+2. Neural Networks Basics
+3. Shallow Neural Networks
+4. Deep Neural Networks
+
+========================== NLP =============================
+1. Sentiment Analysis with Logistic Regression
+2. Sentiment Analysis with Naïve Bayes
+3. Vector Space Models
+4. Machine Translation and Document Search
+5. Autocorrect
+6. Part of Speech Tagging and Hidden Markov Models
+7. Autocomplete and Language Models
+8. Word embeddings with neural networks
+9. Neural Networks for Sentiment Analysis
+10. Recurrent Neural Networks for Language Modeling
+11. LSTMs and Named Entity Recognition
+12. Siamese Networks
+13. Neural Machine Translation
+14. Text Summarization
+15. Question Answering
+16. Chatbot
+
