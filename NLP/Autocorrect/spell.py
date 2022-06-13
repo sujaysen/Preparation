@@ -36,7 +36,7 @@ def edits1(word):
 
 def edits2(word): 
     "All edits that are two edits away from `word`."
-    return (e2 for e1 in edits1(word) for e2 in edits1(e1))
+    return set(e2 for e1 in edits1(word) for e2 in edits1(e1))
 
 ################ Test Code 
 
@@ -95,7 +95,4 @@ def Testset(lines):
             for (right, wrongs) in (line.split(':') for line in lines)
             for wrong in wrongs.split()]
 
-while True:
-	word = input("Input : ")
-	print("Correct word = ",edits1(word))
-	print("=============================================")
+print(edits1("chahiyee"))

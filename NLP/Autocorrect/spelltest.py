@@ -35,7 +35,7 @@ while True:
 		#print("Given string : ",string)
 		fin_string = ""
 		prev_word = ""
-
+		string = input("String : ")
 		string_list = string.split()
 		
 		for word in string_list:
@@ -50,6 +50,4 @@ while True:
 						break
 				prev_word = word
 				
-		if string != fin_string.strip():
-			print(string)
-			print("Output : ",fin_string.strip())
+		print("Output : ",fin_string.strip())
