@@ -1,0 +1,5 @@
+set number -- >> to set line number
+syntax on -->> syntax hilighted with color
+colorscheme COLOR_SCHEME_NAME -->> chage syntax highlited color
+COLOR_SCHEME_NAME = {default, blue, darkblue, delek, desert, elford, evening, industry, koehler, morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner}
+
