@@ -1,1 +1,26 @@
 https://akshay-iyangar.github.io/system-design/
+
+Topics :
+1. System Design Basics
+2. Key Characteristics of Distributed Systems
+3. Load Balancing
+4. Caching
+5. Data Partitioning
+6. Indexes
+7. Proxies
+8. Redundancy and Replication
+9. SQL vs. NoSQL
+10. CAP Theorem
+11. Consistent Hashing
+12. Long-Polling vs WebSockets vs Server-Sent Events
+
+OOP Concept :
+============
+1. Object oriented Basics
+2. OO Analysis and Design
+3. What is UML?
+4. Use Case Diagrams
+5. Class Diagram
+6. Sequence diagram
+7. Activity Diagrams
+
