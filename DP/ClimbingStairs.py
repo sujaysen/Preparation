@@ -1,5 +1,9 @@
-# Climbing Stairs dynamic program
+       ###### Climbing Stairs dynamic program  ######
 """
+There are n stairs, a person standing at the bottom wants to reach the top. 
+The person can climb either 1 stair or 2 stairs at a time. 
+Count the number of ways, the person can reach the top
+
 t(0) = 1
 t(1) = 1
 t(2) = t(0) + t(1) = 2
