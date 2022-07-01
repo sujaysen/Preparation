@@ -1,5 +1,32 @@
-set number -- >> to set line number
-syntax on -->> syntax hilighted with color
-colorscheme COLOR_SCHEME_NAME -->> chage syntax highlited color
-COLOR_SCHEME_NAME = {default, blue, darkblue, delek, desert, elford, evening, industry, koehler, morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner}
+syntax on
+set tabstop=4
+set autoindent
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+set showmatch
+set smarttab
+set dictionary=en
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+set nobackup
+set scrolloff=10
+set ignorecase
+set incsearch
+set nowrap
+set smartcase
+set hlsearch
+set paste
+set ruler
+filetype indent plugin on
+
+
+nnoremap <space> :%s/\<w\>\C/nw/gc
+nnoremap rr :w <CR>:!clear <CR>:!python3 % <CR>
+nnoremap ss :w <CR>
+nnoremap wq :wq <CR>
+nnoremap qq :q! <CR>
+nnoremap / /\<\><left><left>
 
