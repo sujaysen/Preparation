@@ -9,11 +9,11 @@ app = Flask(__name__)
 api = Api(app)
 
 # Import all class in api
-from rest.api import *
+from V1.rest.api import *
 
 
 # adding the defined resources along with their corresponding urls
-api.add_resource(Hello, '/api')
+api.add_resource(Hello, '/V1/api')
 
 
 # driver function
