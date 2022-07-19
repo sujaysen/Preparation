@@ -18,3 +18,13 @@ net salary = 1229517
 bonus after tax = 113165
 total salary with bonus = 1342682
 net take home per month = 111890
+
+
+New Tax :
+0  to 2.5L  = 0       = 0
+2.5L to 5L  = 12500   = 12500
+5L to 7.5L  = 25000   = 37500
+7.5L to 10L = 37500   = 75000
+10L to 12.5L = 50000  = 125000
+12.5L to 15L = 62500 = 187000
+15L to 30L = 450000 = 637000
