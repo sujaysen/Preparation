@@ -1,0 +1,16 @@
+The main components of the ATM that will affect interactions between the ATM and its users are:
+1. Card Reader
+2. Keypad
+3. Screen
+4. Cash dispenser
+5. Deposit slot
+6. Printer
+7. Communication
+
+Perform the following five transactions on the ATM:
+1. Balance inquiry
+2. Deposit cash
+3. Deposit check
+4. Withdraw cash
+5. Transfer funds
+
