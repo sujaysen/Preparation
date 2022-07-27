@@ -1,1 +1,8 @@
 *************************Introduction*************************
+1. Search and Sorting
+2. Dynamic Programming
+3. Graph Algorithm
+4. Greedy Algorithm	
+5. Divide and Conquer
+6. Backtracking
+7. Mathematical Algorithm

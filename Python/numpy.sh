@@ -59,6 +59,28 @@ knprod = kron(arr1,arr2)
 # Compute the outer product of two vectors.
 outProd = outer(vec1,vec2)
 matMultiplication = matmul(matrix1,matrix2)
+# bitwise and 
+bitwiseAnd = np.bitwise_and(b_num1,b_num2)
+# bitwise or
+bitwiseOr = np.bitwise_or(b_num1,b_num2)
+# bitwise xor
+bitwiseXor = np.bitwise_xor(arr1,arr2)
+# left shift
+leftshift = np.left_shift(number,no_bit_shift)
+# right shift
+rightshift = np.right_shift(number,no_bit_shift) # number may be array or exact number
+# binary representation
+brep = np.binary_repr(numberi,width=None)
+# multiply two array element wise
+arr = arr1*arr2
+# sort in numpy
+arr = np.sort(arr,axis=None)  # sort whole 
+arr = np.sort(arr,axis=0)     # sort along first axis
+arr = np.sort(arr,axis=-1)    # sort along last axis
+# returns the indices that would sort an array.
+indices = np.argsort(arr)
+# partition in numpy
+
 
 
 
