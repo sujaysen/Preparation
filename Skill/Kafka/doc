@@ -1,0 +1,11 @@
+#################################### Kafka #########################################
+-->> Apache Kafka was originated at LinkedIn and later became an open sourced Apache project in 2011
+-->> Kafka is written in Scala and Java
+-->> Apache Kafka is publish-subscribe based fault tolerant messaging system
+-->> It is fast, scalable and distributed by design
+-->> To make event-driven architecture kafka is useful
+
+
+
+
+
